@@ -1,0 +1,133 @@
+.banner {
+ 	color: green;
+ 	font-family: courier;
+  font-size: 405%;
+  text-align: left;
+  padding-top: 10px;
+ 	padding-left:22%;
+  padding-bottom: 3px;
+}
+.subbanner {
+ 	color: lightgreen;
+  font-family: courier;
+ 	font-size: 47%;
+ 	text-align: top;
+  padding-left: 197px;
+}
+
+.active {
+	color: white;
+	background-color: green;
+  border-radius: 4px;
+  overflow: visible;
+}
+
+div {
+  margin-left: 25px;
+}
+
+span {
+    font-size: 73%;
+    font-family: courier;
+    margin: 3px 0px 0px 5px;
+    float: right;
+}
+
+hr {
+	width: 100%;
+	color: green;
+	margin-top: 86px;
+}
+
+/*first level*/
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  position: absolute;
+  border-radius: 4px;
+  color: black;
+  background-color: white;
+}
+ul:hover {
+  overflow: visible;
+}
+li {
+  position: relative;
+  float: left;
+  padding-right: 7px;
+  background-color: none;
+}
+li:hover {
+  background-color: green;
+  border-radius: 4px;
+}
+a {
+  display: block;
+  padding: 10px 10px;
+  color: black;
+  font-family: courier;
+  font-size: 125%;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+	color: white;
+}
+
+
+
+/* second level */
+ul ul {
+  max-height: 0;
+  transition: max-height 0.5s;
+}
+ul li:hover a{
+  color: white;
+}
+ul li:hover ul {
+  max-height: 999px;
+}
+ul ul li {
+  float: none;
+  background-color: black;
+}
+ul ul li:hover {
+  background-color: green;
+  color: white;
+}
+.secondary {
+	color:white;
+	font-size: 125%;
+	font-weight: normal;
+}
+
+
+/* third level */
+ul ul ul {
+  position: absolute;
+  width: 0;
+  top: 0;
+  left: 100%;
+  transition: width 0.5s;
+}
+ul ul li:hover ul {
+  width: 100%;
+}
+ul ul ul li {
+  float: none;
+  text-align: center;
+  background-color: black;
+}
+ul ul ul li:hover {
+  background-color: green;
+  color: black;
+}
+.tertiary {
+	color:white;
+	font-size: 125%;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-weight: normal;
+}
