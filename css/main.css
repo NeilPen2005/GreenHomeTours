@@ -30,6 +30,33 @@
   font-weight: bold;
 }
 
+.text {
+  font-size: 70%;
+  color: white;
+  padding: 0;
+}
+
+.heading1 {
+  font-size: 110%;
+  color: white;
+  padding: 0;
+}
+
+.heading2 {
+  font-size: 150%;
+  color: green;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+.subheading2 {
+  font-size: 100%;
+  color: black;
+  padding-left: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 * {
   box-sizing: border-box;
 }
