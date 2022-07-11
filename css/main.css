@@ -42,13 +42,6 @@
   padding: 0;
 }
 
-.heading2 {
-  font-size: 150%;
-  color: green;
-  padding-left: 50px;
-  font-weight: bold;
-}
-
 .section1 {
   padding-bottom: 20px;
 }
@@ -72,22 +65,85 @@
 }
 
 .subheading2 {
-  font-size: 100%;
+  font-size: 115%;
   color: black;
-  padding-left: 50px;
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
-.housesection {
-  align-content: right;
+.heading2 {
+  font-size: 170%;
+  color: green;
+  font-weight: bold;
 }
 
 .housepic {
-  padding-left: 120px;
+  display:inline-block; 
+  vertical-align:top;
+}
+
+.housesection {
+  display:inline-block;
+  padding-top: 20px;
+}
+
+.housefront {
+  max-width: 100%;
+  height: 300px;
+}
+
+.househeader {
+  padding-left: 220px;
+  padding-top: 20px;
+}
+
+.subtitle2 {
+  font-size: 170%;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.subheading3 {
+  font-size: 115%;
+  color: black;
+  font-weight: bold;
+}
+
+.heading4 {
+  font-size: 130%;
+  color: black;
+  text-align: center;
+}
+
+.subtext3 {
+  font-size: 110%;
+  color: green;
+  text-align: center;
+}
+
+.appliance {
+  max-width: 100%;
+  height: 220px;
+}
+
+.text2 {
+  font-size: 74%;
+  color: white;
+  padding: 0;
 }
 
 
+.column2 {
+  float: left;
+  width: 25%;
+  height: 500px;
+}
+
+.content2 {
+  background-color: green;
+  border-radius: 4px;
+  padding: 10px;
+  height: 440px;
+}
 
 * {
   box-sizing: border-box;
