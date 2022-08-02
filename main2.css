@@ -1,0 +1,312 @@
+.banner {
+ 	color: green;
+ 	font-family: courier;
+  font-size: 405%;
+  text-align: left;
+  padding-top: 10px;
+ 	padding-left:22%;
+  padding-bottom: 3px;
+}
+.subbanner {
+ 	color: lightgreen;
+  font-family: courier;
+ 	font-size: 47%;
+ 	text-align: top;
+  padding-left: 197px;
+}
+
+.subtitle {
+  font-family: courier;
+  font-size: 175%;
+  text-align: center;
+  font-weight: bold;
+  color: green;
+}
+
+.subtext {
+  font-family: courier;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 70%;
+  color: white;
+  padding: 0;
+}
+
+.heading1 {
+  font-size: 110%;
+  color: white;
+  padding: 0;
+}
+
+.section1 {
+  padding-bottom: 20px;
+}
+
+.section2 {
+  padding-bottom: 10px;
+}
+
+.heading3 {
+  font-size: 160%;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subtext2 {
+  font-size: 120%;
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subheading2 {
+  font-size: 115%;
+  color: black;
+}
+
+.heading2 {
+  font-size: 170%;
+  color: green;
+  font-weight: bold;
+}
+
+.housepic {
+  display:inline-block; 
+  vertical-align:top;
+}
+
+.housesection {
+  display:inline-block;
+  padding-top: 20px;
+}
+
+.housefront {
+  max-width: 100%;
+  height: 300px;
+}
+
+.househeader {
+  padding-left: 220px;
+  padding-top: 20px;
+}
+
+.subtitle2 {
+  font-size: 170%;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.subheading3 {
+  font-size: 115%;
+  color: black;
+  font-weight: bold;
+}
+
+.heading4 {
+  font-size: 130%;
+  color: black;
+  text-align: center;
+}
+
+.subtext3 {
+  font-size: 110%;
+  color: green;
+  text-align: center;
+}
+
+.appliance {
+  max-width: 100%;
+  height: 220px;
+}
+
+.text2 {
+  font-size: 74%;
+  color: white;
+  padding: 0;
+}
+
+
+.column2 {
+  float: left;
+  width: 25%;
+  height: 500px;
+}
+
+.content2 {
+  background-color: green;
+  border-radius: 4px;
+  padding: 10px;
+  height: 440px;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+  font-family: courier;
+}
+.whitetext {
+  color: white;
+}
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+.row {
+  margin: 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+.column {
+  float: left;
+  width: 25%;
+} 
+.content {
+  background-color: green;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.active {
+	color: white;
+	background-color: green;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div {
+  margin-left: 25px;
+}
+
+span {
+    font-size: 73%;
+    font-family: courier;
+    margin: 3px 0px 0px 5px;
+    float: right;
+    padding-left: 3px;
+}
+
+hr {
+	width: 100%;
+	color: green;
+	margin-top: 86px;
+}
+
+/*first level*/
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  position: absolute;
+  border-radius: 4px;
+  color: black;
+  background-color: white;
+}
+ul:hover {
+  overflow: visible;
+}
+li {
+  position: relative;
+  float: left;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: none;
+
+}
+li:hover {
+  background-color: green;
+  border-radius: 4px;
+}
+a {
+  display: block;
+  padding: 10px 10px;
+  color: black;
+  font-family: courier;
+  font-size: 125%;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+	color: white;
+}
+.primary {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+/* second level */
+ul ul {
+  max-height: 0;
+  transition: max-height 0.5s;
+}
+ul li:hover a{
+  color: white;
+}
+ul li:hover ul {
+  max-height: 999px;
+}
+ul ul li {
+  float: none;
+  background-color: black;
+}
+ul ul li:hover {
+  background-color: green;
+  color: white;
+}
+.secondary {
+  color: white;
+	font-size: 125%;
+	font-weight: normal;
+  padding-left: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 220px;
+}
+
+
+/* third level */
+ul ul ul {
+  position: absolute;
+  width: 0;
+  top: 0;
+  left: 100%;
+  transition: width 0.5s;
+}
+ul ul li:hover ul {
+  width: 100%;
+}
+ul ul ul li {
+  float: none;
+  text-align: center;
+  background-color: black;
+}
+ul ul ul li:hover {
+  background-color: green;
+  color: black;
+}
+.tertiary {
+	color:white;
+	font-size: 125%;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-weight: normal;
+}
