@@ -42,6 +42,12 @@
   padding: 0;
 }
 
+.heading6 {
+  font-size: 100%;
+  color: black;
+  padding: 0;
+}
+
 .section1 {
   padding-bottom: 20px;
 }
@@ -52,16 +58,26 @@
 
 .heading3 {
   font-size: 160%;
-  color: black;
+  color: green;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+.heading5 {
+  font-size: 160%;
+  color: green;
   text-align: center;
   font-weight: bold;
 }
 
 .subtext2 {
   font-size: 120%;
-  color: green;
+  color: black;
   text-align: center;
   font-weight: bold;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .subheading2 {
@@ -138,11 +154,30 @@
   height: 500px;
 }
 
+.column3 {
+  float: left;
+  width: 25%;
+  height: 250px;
+}
+
 .content2 {
   background-color: green;
   border-radius: 4px;
   padding: 10px;
   height: 440px;
+}
+
+.content3 {
+  background-color: green;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.content4 {
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 70px;
 }
 
 * {
@@ -181,6 +216,14 @@ h1 {
   background-color: green;
   border-radius: 4px;
   padding: 10px;
+  height: 340px;
+}
+
+.content3 {
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+  height: 340px;
 }
 
 .active {
