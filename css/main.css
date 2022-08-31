@@ -3,10 +3,12 @@
  	font-family: courier;
   font-size: 405%;
   text-align: left;
-  padding-top: 10px;
+  padding-top: 0px;
  	padding-left:22%;
-  padding-bottom: 3px;
+  padding-bottom: 0px;
 }
+
+
 .subbanner {
  	color: lightgreen;
   font-family: courier;

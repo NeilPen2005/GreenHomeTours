@@ -1,17 +1,17 @@
 .banner {
- 	color: green;
- 	font-family: courier;
+  color: green;
+  font-family: courier;
   font-size: 405%;
   text-align: left;
   padding-top: 10px;
- 	padding-left:22%;
+  padding-left:22%;
   padding-bottom: 3px;
 }
 .subbanner {
- 	color: lightgreen;
+  color: lightgreen;
   font-family: courier;
- 	font-size: 47%;
- 	text-align: top;
+  font-size: 47%;
+  text-align: top;
   padding-left: 197px;
 }
 
@@ -42,6 +42,12 @@
   padding: 0;
 }
 
+.heading6 {
+  font-size: 100%;
+  color: black;
+  padding: 0;
+}
+
 .section1 {
   padding-bottom: 20px;
 }
@@ -52,16 +58,26 @@
 
 .heading3 {
   font-size: 160%;
-  color: black;
+  color: green;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+.heading5 {
+  font-size: 160%;
+  color: green;
   text-align: center;
   font-weight: bold;
 }
 
 .subtext2 {
   font-size: 120%;
-  color: green;
+  color: black;
   text-align: center;
   font-weight: bold;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .subheading2 {
@@ -138,11 +154,30 @@
   height: 500px;
 }
 
+.column3 {
+  float: left;
+  width: 25%;
+  height: 250px;
+}
+
 .content2 {
   background-color: green;
   border-radius: 4px;
   padding: 10px;
   height: 440px;
+}
+
+.content3 {
+  background-color: green;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.content4 {
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 70px;
 }
 
 * {
@@ -181,11 +216,19 @@ h1 {
   background-color: green;
   border-radius: 4px;
   padding: 10px;
+  height: 340px;
+}
+
+.content3 {
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+  height: 340px;
 }
 
 .active {
-	color: white;
-	background-color: green;
+  color: white;
+  background-color: green;
   border-radius: 4px;
   padding-left: 20px;
   padding-right: 20px;
@@ -204,9 +247,9 @@ span {
 }
 
 hr {
-	width: 100%;
-	color: green;
-	margin-top: 86px;
+  width: 100%;
+  color: green;
+  margin-top: 86px;
 }
 
 /*first level*/
@@ -245,7 +288,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-	color: white;
+  color: white;
 }
 .primary {
   padding-right: 20px;
@@ -274,8 +317,8 @@ ul ul li:hover {
 }
 .secondary {
   color: white;
-	font-size: 125%;
-	font-weight: normal;
+  font-size: 125%;
+  font-weight: normal;
   padding-left: 15px;
   margin-left: 0;
   margin-right: 0;
@@ -304,9 +347,9 @@ ul ul ul li:hover {
   color: black;
 }
 .tertiary {
-	color:white;
-	font-size: 125%;
-	margin-left: 2px;
-	margin-right: 2px;
-	font-weight: normal;
+  color:white;
+  font-size: 125%;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-weight: normal;
 }
