@@ -78,8 +78,17 @@
   color: black;
   text-align: center;
   font-weight: bold;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 180px;
+  margin-right: 170px;
+}
+
+.subtext8 {
+  font-size: 120%;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 180px;
+  margin-right: 170px;
 }
 
 .subheading2 {
